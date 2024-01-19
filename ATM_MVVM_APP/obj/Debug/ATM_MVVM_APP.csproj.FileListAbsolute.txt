@@ -21,6 +21,10 @@ C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\LoginView
 C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\LoginView.baml
 C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\SignUpView.g.cs
 C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\SignUpView.baml
+C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\DepositView.g.cs
+C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\DepositView.baml
 C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\ATM_MVVM_APP.csprojAssemblyReference.cache
-C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\EndView.g.cs
-C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\EndView.baml
+C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\WithdrawView.g.cs
+C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\WithdrawView.baml
+C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\ShowBalanceView.g.cs
+C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\obj\Debug\Views\ShowBalanceView.baml

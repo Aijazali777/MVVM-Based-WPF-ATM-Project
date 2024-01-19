@@ -45,12 +45,12 @@
     <Grid Background="#595F72">
         <StackPanel Name="SPMenu" Orientation="Vertical">
             <TextBlock Name="TxtWelcome" Text="Welcome to Alfa E-Wallet" TextAlignment="Center" FontSize="25" Margin="20" Width="400"/>
-            <TextBlock Name="TxtLogin" Text="" TextAlignment="Center" Width="500"/>
-            <TextBlock Name="TxtCurrentUser" Text="Please select any option to process..." TextAlignment="Center" Width="300"/>
+            <TextBlock Name="TxtCurrentUser" Text="" TextAlignment="Center" Width="500"/>
+            <TextBlock Name="TxtSelectOption" Text="Please select any option to process..." TextAlignment="Center" Width="300"/>
             <Button Name="BtnDeposit" Content="Deposit" Click="ClickDeposit"/>
-            <Button Name="BtnWithdraw" Content="Withdraw" />
-            <Button Name="BtnShowBalance" Content="Show Balance" />
-            <Button Name="BtnExit" Content="Exit"/>
+            <Button Name="BtnWithdraw" Content="Withdraw" Click="ClickWithdraw"/>
+            <Button Name="BtnShowBalance" Content="Show Balance" Click="ClickShowBalance"/>
+            <Button Name="BtnExit" Content="Exit" Click="ClickExit"/>
         </StackPanel>
     </Grid>
 </UserControl>

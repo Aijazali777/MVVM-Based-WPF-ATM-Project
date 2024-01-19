@@ -16,25 +16,24 @@ using System.Windows.Shapes;
 using ATM_MVVM_APP.ViewModels;
 namespace ATM_MVVM_APP.Views
 {
-    /// <summary>
-    /// Interaction logic for LoginView.xaml
-    /// </summary>
     public partial class LoginView : UserControl
     {
-        CustomerViewModel ViewModel;
+        SharedViewModel SViewModel;
         public LoginView()
         {
             InitializeComponent();
-            ViewModel = new CustomerViewModel();
-            this.DataContext = ViewModel;
+            SViewModel = new SharedViewModel();
+            this.DataContext = SViewModel;
         }
 
         private void Clicklogin(object sender, RoutedEventArgs e)
         {
-            TxtSignupResponse.Visibility = Visibility.Collapsed;
             bool isAccount = false;
 
-            isAccount = ViewModel.Login();
+            Application.Current.Properties["AcctNum"] = FldAccountNum.Text;
+            Application.Current.Properties["CurrentPass"] = FldPassword.Text;
+
+            isAccount = SViewModel.Login();
 
             if (!isAccount)
             {
@@ -42,7 +41,6 @@ namespace ATM_MVVM_APP.Views
             }
             else
             {
-                TxtLogin.Text = "Welcome " + ViewModel.currentCustomerName + " :) ";
                 Window parentWindow = Window.GetWindow(this);
                 if (parentWindow != null)
                 {

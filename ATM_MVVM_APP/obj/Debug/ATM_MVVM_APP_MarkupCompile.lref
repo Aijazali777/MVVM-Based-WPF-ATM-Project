@@ -2,8 +2,10 @@
 
 FC:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\MainWindow.xaml;;
 FC:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\Views\CustomerView.xaml;;
+FC:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\Views\DepositView.xaml;;
 FC:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\Views\LoginView.xaml;;
 FC:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\Views\MainMenu.xaml;;
 FC:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\Views\SignUpView.xaml;;
-FC:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\Views\EndView.xaml;;
+FC:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\Views\WithdrawView.xaml;;
+FC:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\Views\ShowBalanceView.xaml;;
 

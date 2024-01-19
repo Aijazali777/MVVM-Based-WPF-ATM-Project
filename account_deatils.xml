@@ -4,7 +4,7 @@
     <AccountNumber>1001</AccountNumber>
     <Password>1231</Password>
     <Name>Smith</Name>
-    <Balance>92929</Balance>
+    <Balance>756929</Balance>
   </Customer>
   <Customer>
     <AccountNumber>1002</AccountNumber>
@@ -76,7 +76,7 @@
     <AccountNumber>2002</AccountNumber>
     <Password>2002</Password>
     <Name>Jason</Name>
-    <Balance>7000</Balance>
+    <Balance>5900</Balance>
   </Customer>
   <Customer>
     <AccountNumber>2003</AccountNumber>
@@ -95,5 +95,35 @@
     <Password>2006</Password>
     <Name>SW</Name>
     <Balance>600</Balance>
+  </Customer>
+  <Customer>
+    <AccountNumber>3001</AccountNumber>
+    <Password>3001</Password>
+    <Name>Ahmed</Name>
+    <Balance>600</Balance>
+  </Customer>
+  <Customer>
+    <AccountNumber>3002</AccountNumber>
+    <Password>3002</Password>
+    <Name>Hammad</Name>
+    <Balance>104500</Balance>
+  </Customer>
+  <Customer>
+    <AccountNumber>3004</AccountNumber>
+    <Password>3004</Password>
+    <Name>AA</Name>
+    <Balance>7000</Balance>
+  </Customer>
+  <Customer>
+    <AccountNumber>3005</AccountNumber>
+    <Password>3005</Password>
+    <Name>Saad</Name>
+    <Balance>-42000</Balance>
+  </Customer>
+  <Customer>
+    <AccountNumber>3006</AccountNumber>
+    <Password>3006</Password>
+    <Name>WW</Name>
+    <Balance>8000</Balance>
   </Customer>
 </ArrayOfCustomer>

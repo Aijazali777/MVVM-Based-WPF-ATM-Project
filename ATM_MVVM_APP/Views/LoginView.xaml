@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:ATM_MVVM_APP.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    
     <UserControl.Resources>
         <Style TargetType="Button">
             <Setter Property="Background" Value="#007ACC" />
@@ -46,14 +47,13 @@
 
         <StackPanel Name="SPLogin" Orientation="Vertical">
             <TextBlock Name="TxtWelcome" Text="Welcome to Alfa E-Wallet" TextAlignment="Center" FontSize="25" Margin="20" Width="400"/>
-            <TextBlock Name="TxtSignupResponse" Margin="15"  Width="500" TextAlignment="Center"/>
+            <TextBlock Name="TxtResponse" Width="300" TextAlignment="Center"/>
             <TextBlock Name="TxtLogin" Text="Login" TextAlignment="Center" Width="500"/>
             <TextBlock Name="TxtAccountNum" Text="Enter account number" Width="200"/>
-            <TextBox Name="FldAccountNum" Text="{Binding Path=CurrentCustomer.AccountNumber}"/>
+            <TextBox Name="FldAccountNum" Text="{Binding AcctNum, Mode=OneWay}"/>
             <TextBlock Name="TxtPassword" Text="Enter password" Width="200"/>
-            <TextBox Name="FldPassword" Text="{Binding Path=CurrentCustomer.Password}"/>
+            <TextBox Name="FldPassword" Text="{Binding CurrentPass, Mode=OneWay}"/>
             <Button Name="BtnLogin" Content="Login" Click="Clicklogin" Margin="340,10" Width="Auto"/>
-            <TextBlock Name="TxtResponse" Width="300" TextAlignment="Center"/>
         </StackPanel>
     </Grid>
 </UserControl>

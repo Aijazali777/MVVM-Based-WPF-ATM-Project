@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\aaijaz\source\repos\ATM_MVVM_APP\ATM_MVVM_APP\App.xaml
-6994914849
+81840627678
 
-161894743837
+18-1420701668
 131569487696
-MainWindow.xaml;Views\CustomerView.xaml;Views\EndView.xaml;Views\LoginView.xaml;Views\MainMenu.xaml;Views\SignUpView.xaml;
+MainWindow.xaml;Views\CustomerView.xaml;Views\DepositView.xaml;Views\LoginView.xaml;Views\MainMenu.xaml;Views\ShowBalanceView.xaml;Views\SignUpView.xaml;Views\WithdrawView.xaml;
 
-False
+True
 

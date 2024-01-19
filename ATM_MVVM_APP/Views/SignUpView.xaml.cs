@@ -16,24 +16,21 @@ using System.Windows.Shapes;
 using ATM_MVVM_APP.ViewModels;
 namespace ATM_MVVM_APP.Views
 {
-    /// <summary>
-    /// Interaction logic for SignUpView.xaml
-    /// </summary>
     public partial class SignUpView : UserControl
     {
-        CustomerViewModel ViewModel;
+        SharedViewModel SViewModel;
         public SignUpView()
         {
             InitializeComponent();
-            ViewModel = new CustomerViewModel();
-            this.DataContext = ViewModel;
+            SViewModel = new SharedViewModel();
+            this.DataContext = SViewModel;
         }
 
         private void ClickSignUp(object sender, RoutedEventArgs e)
         {
             if (ValidateRequiredFileds())
             {
-                bool success = ViewModel.SignUp();
+                bool success = SViewModel.SignUp();
                 if (success)
                 {
                     TxtSignupResponse.Text = "Account created successfully!";
@@ -54,22 +51,22 @@ namespace ATM_MVVM_APP.Views
         bool ValidateRequiredFileds()
         {
             bool valid = true;
-            if (ViewModel.CurrentCustomer.AccountNumber == "" || ViewModel.CurrentCustomer.AccountNumber == null)
+            if (SViewModel.CurrentCustomer.AccountNumber == "" || SViewModel.CurrentCustomer.AccountNumber == null)
             {
                 TxtSignupResponse.Text = "Please enter an account number to register.";
                 valid = false;
             }
-            else if (ViewModel.CurrentCustomer.Password == "" || ViewModel.CurrentCustomer.Password == null)
+            else if (SViewModel.CurrentCustomer.Password == "" || SViewModel.CurrentCustomer.Password == null)
             {
                 TxtSignupResponse.Text = "Please enter a password to register.";
                 valid = false;
             }
-            else if (ViewModel.CurrentCustomer.Name == "" || ViewModel.CurrentCustomer.Name == null)
+            else if (SViewModel.CurrentCustomer.Name == "" || SViewModel.CurrentCustomer.Name == null)
             {
                 TxtSignupResponse.Text = "Please enter your name to register.";
                 valid = false;
             }
-            else if (ViewModel.CurrentCustomer.Balance < 500)
+            else if (SViewModel.CurrentCustomer.Balance < 500)
             {
                 TxtSignupResponse.Text = "Please enter an amount of 500 or above to register.";
                 valid = false;
